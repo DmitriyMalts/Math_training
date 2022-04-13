@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     align-items: center;
+    box-sizing: border-box;
 }
 
 body {
@@ -52,24 +53,34 @@ a {
 }
 
 a:hover {
-    background-color: aqua;
+    background-color: none;
 }
 
-.answers {
-    /* margin-top: 50px; */
-    /* display: grid;
-    grid-template-columns: 50%, 50%; */
-    display: flex;
+.answers,
+.answers2 {
+ 
     text-align: center;
-    justify-content: center;
+
+    display: inline-block;
+
+
+
+
+
 }
 
-.answers h1 {
+.answers h1,
+.answers2 h1 {
     font-size: 50px;
-    display: inline;
-    padding: 30px;
+    margin: 10px;
+    
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
     cursor: pointer;
-    margin-top: 40px;
+
 
 }
 
@@ -77,7 +88,10 @@ a:hover {
     background-color: #eb0c0c;
     transition: 0, 75s;
     color: #ffff;
-    padding: 20px 40px 20px 40px;
+  
+
+
+
 }
 
 #option1:hover {
@@ -90,7 +104,8 @@ a:hover {
     background-color: #480cec;
     transition: 0, 75s;
     color: #ffff;
-    padding: 20px 40px 20px 40px;
+  
+
 }
 
 #option2:hover {
@@ -103,7 +118,7 @@ a:hover {
     background-color: #ffa500;
     transition: 0, 75s;
     color: #ffff;
-    padding: 20px 40px 20px 40px;
+
 }
 
 #option3:hover {
@@ -116,7 +131,7 @@ a:hover {
     background-color: #6b0e5c;
     transition: 0, 75s;
     color: #ffff;
-    padding: 20px 40px 20px 40px;
+
 }
 
 #option4:hover {
