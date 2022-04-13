@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #edd53b;
+    text-align: center;
+    ;
+}
+
+.title {
+    color: #ffff;
+    background: red;
+}
+
+.current {
+    background-color: yellow;
+    color: red;
+}
+
+.c .container {
+    background-color: #3bb5ed;
+}
+
+.container ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.container li {
+    padding: 10px 30px 10px 30px;
+}
+
+.equation {
+    margin-top: 40px;
+}
+
+.equation h1 {
+    display: inline;
+    padding: 10px 15px 10px 15px;
+    font-size: 70px;
+    border-radius: 5px;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+.answers {
+    /* margin-top: 50px; */
+    /* display: grid;
+    grid-template-columns: 50%, 50%; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.answers h1 {
+    font-size: 50px;
+    display: inline;
+    padding: 30px;
+    cursor: pointer;
+    margin-top: 40px;
+
+}
+
+#option1 {
+    background-color: #eb0c0c;
+    transition: 0, 75s;
+    color: #ffff;
+    padding: 20px 40px 20px 40px;
+}
+
+#option1:hover {
+    background-color: #ffff;
+
+    color: #eb0c0c;
+}
+
+#option2 {
+    background-color: #480cec;
+    transition: 0, 75s;
+    color: #ffff;
+    padding: 20px 40px 20px 40px;
+}
+
+#option2:hover {
+    background-color: #ffff;
+
+    color: #480cec;
+}
+
+#option3 {
+    background-color: #ffa500;
+    transition: 0, 75s;
+    color: #ffff;
+    padding: 20px 40px 20px 40px;
+}
+
+#option3:hover {
+    background-color: #ffff;
+
+    color: #ffa500;
+}
+
+#option4 {
+    background-color: #6b0e5c;
+    transition: 0, 75s;
+    color: #ffff;
+    padding: 20px 40px 20px 40px;
+}
+
+#option4:hover {
+    background-color: #ffff;
+
+    color: #6b0e5c;
+    ;
+}
+
+#num1 {
+    color: #480cec;
+}
+
+#num2 {
+    color: #da361a;
+}
+
+#oper {
+    color: #6b0e5c;
+}
+
+#equal {
+    color: #eb0c0c;
+}
+
+#fin {
+    color: #16208a;
+}

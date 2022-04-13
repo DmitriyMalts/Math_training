@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+    <title>ВІДНІМАННЯ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="container">
+        <h1 class="title">РАХУВАЛКА v 1.0</h1>
+        <ul>
+            <li><a href="index.html">ДОДАВАННЯ</a></li>
+            <li class="current"><a href="minus.html">ВІДНІМАННЯ</a></li>
+            <li><a href="multi.html">МНОЖЕННЯ</a></li>
+            <!-- <li><a href="divide.html">ДІЛЕННЯ</a></li> -->
+        </ul>
+    </div>
+</header>
+<div class="wrapper">
+    <div class="equation">
+        <h1 id="num1">1</h1>
+        <h1 id="oper">-</h1>
+        <h1 id="num2">2</h1>
+        <h1 id="equal">=</h1>
+        <h1 id="fin">?</h1>
+
+    </div>
+    <div class="answers">
+        <h1 id="option1">1</h1>
+        <h1 id="option2">2</h1>
+        <h1 id="option3">3</h1>
+        <h1 id="option4">4</h1>
+    </div>
+</div>
+
+<body>
+    <audio>
+        <source src="audio/yes.mp3" id="yes1">
+        <source src="audio/no.mp3" id="no1">
+    </audio>
+    <script src="minus.js"></script>
+</body>
+
+</html>
